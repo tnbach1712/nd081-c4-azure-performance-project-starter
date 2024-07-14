@@ -1,2 +1,33 @@
 Data
 Instrumentation Key: d6c10522-55bb-4636-b866-069a3378349b
+
+
+
+az network public-ip list --resource-group acdnd-c4-project
+// [
+//   {
+//     "etag": "W/\"8d2ee271-2f38-4114-8b44-33efa8eb3f04\"",
+//     "id": "/subscriptions/fbda4cc5-31d3-4801-9427-d377d6038291/resourceGroups/acdnd-c4-project/providers/Microsoft.Network/publicIPAddresses/udacity-vmss-lbPublicIP",
+//     "idleTimeoutInMinutes": 4,
+//     "ipAddress": "13.64.23.61",
+//     "ipConfiguration": {
+//       "id": "/subscriptions/fbda4cc5-31d3-4801-9427-d377d6038291/resourceGroups/acdnd-c4-project/providers/Microsoft.Network/loadBalancers/udacity-vmss-lb/frontendIPConfigurations/loadBalancerFrontEnd",
+//       "resourceGroup": "acdnd-c4-project"
+//     },
+//     "ipTags": [],
+//     "location": "westus",
+//     "name": "udacity-vmss-lbPublicIP",
+//     "provisioningState": "Succeeded",
+//     "publicIPAddressVersion": "IPv4",
+//     "publicIPAllocationMethod": "Static",
+//     "resourceGroup": "acdnd-c4-project",
+//     "resourceGuid": "8b469072-df48-424d-8c1e-ef88db74e511",
+//     "sku": {
+//       "name": "Standard",
+//       "tier": "Regional"
+//     },
+//     "tags": {},
+//     "type": "Microsoft.Network/publicIPAddresses"
+//   }
+// ]
+
